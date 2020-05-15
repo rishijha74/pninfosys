@@ -1,0 +1,14 @@
+<app-header></app-header>
+<app-home *ngIf="router.url=='/'"></app-home>
+<app-about *ngIf="router.url=='about'" ></app-about>
+<app-service *ngIf="router.url=='service'"></app-service>
+<app-training *ngIf="router.url=='training'"></app-training>
+<app-contact *ngIf="router.url=='contact'"></app-contact>
+<app-xiaomicompany *ngIf="router.url=='workshop/xiaomi'"></app-xiaomicompany>
+<app-bentchair *ngIf="router.url=='workshop/bentchair'"></app-bentchair>
+<app-rjit *ngIf="router.url=='workshop/rjit'"></app-rjit>
+<app-mpct *ngIf="router.url=='workshop/mpct'"></app-mpct>
+<app-internregistration *ngIf="router.url=='internregistration'"></app-internregistration>
+<router-outlet></router-outlet>
+<app-footer></app-footer>
+
